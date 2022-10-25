@@ -1,0 +1,53 @@
+.top-bar {
+    background-color: #6bdad5;
+}
+
+.top-bar-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 13px 0;
+    color: white;
+
+}
+
+.top-bar-wrapper li a{
+    font-size: 18px;
+}
+
+.top-bar-wrapper li i {
+    margin-right: 5px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+
+}
+
+header:hover .navigation {
+    background-color: white;
+    transition: .4s;
+    color: black;
+}
+
+header:hover .navigation a {
+    color: black;
+}
+
+.nav-logo {
+    width: 20%;
+}
+.nav-link , .nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link li, .nav-icon li {
+    margin-right: 50px;
+}
+.nav-link li a , .nav-icon li a {
+    color: white;
+    font-size: 20px;
+}
+
